@@ -1,0 +1,1 @@
+<video src="<?php echo $src; ?>" class="sm-video-display" controls><div class="sm-video-nosupport"></div></video>

@@ -1,0 +1,108 @@
+.sm-video-display {
+    width: 100%;
+}
+
+.sm-video-nosupport:before {
+    content: 'Votre naviguateur ne supporte pas le format vidéo';
+    position: relative;
+    visibility: hidden;
+}
+
+
+.sm-readmore-link {
+    cursor: pointer;
+}
+
+.version-label {
+    width: 200px;
+}
+
+.version-status-ok {
+    color: #00802b !important;
+}
+
+.version-status-not-supported {
+    color: #b30000 !important;
+    font-weight: bold !important;
+}
+
+.sociallymap-log-container .col-date {
+    width: 10%;
+}
+
+.sociallymap-log-container .col-sm-entity-id {
+    width: 20%;
+}
+
+.sociallymap-log-container .col-category {
+    width: 10%;
+}
+
+.sociallymap-log-container .col-error {
+    width: 5%;
+}
+
+.sociallymap-entity-list-container .col-entity-name {
+    width: 10%;
+}
+
+.sociallymap-entity-list-container .col-sm-entity-id {
+    width: 20%;
+}
+
+.sociallymap-entity-list-container .col-category {
+    width: 20%;
+}
+
+.sociallymap-entity-list-container .col-author {
+    width: 20%;
+}
+
+.sociallymap-entity-list-container .col-enabled {
+    width: 10%;
+}
+
+.sociallymap-entity-list-container .col-last-publication {
+    width: 10%;
+}
+
+.sociallymap-entity-list-container .col-errors {
+    width: 10%;
+}
+
+.sociallymap-entity-list-container .on-warning {
+    background-color: #ffe9c9 !important;
+}
+
+.sociallymap-entity-list-container .on-warning td, .sociallymap-entity-list-container .on-warning li {
+    color: #a4733f !important;
+}
+
+.sociallymap-entity-list-container .on-error {
+    background-color: #ffcece !important;
+}
+
+.sociallymap-entity-list-container .on-error td, .sociallymap-entity-list-container .on-error li {
+    color: #b30000 !important;
+}
+
+.alert-info {
+    color: red;
+    font-style: italic;
+}
+.success-info {
+    color: green;
+    font-style: italic;
+}
+
+.disabled-cursor {
+    cursor: default !important;
+}
+
+.doc-list li {
+    list-style: inside;
+}
+
+.credit {
+    font-style: italic;
+}

@@ -1,0 +1,14 @@
+{
+    "name": "uzulth/sociallymap-connect-plugin",
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yann",
+            "email": "yann@sociallymap.com"
+        }
+    ],
+    "require": {}
+}

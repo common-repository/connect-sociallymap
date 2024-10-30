@@ -1,0 +1,1 @@
+<img class="aligncenter" src="<?php echo $src; ?>" alt="" />

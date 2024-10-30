@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sociallymap Connect\n"
+"POT-Creation-Date: 2019-07-01 15:10+0200\n"
+"PO-Revision-Date: 2019-07-01 15:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controllers/DiagnosticController.php:37
+msgid "Actif"
+msgstr "Enabled"
+
+#: Controllers/DiagnosticController.php:38
+msgid "Inactif"
+msgstr "Disabled"
+
+#: Controllers/DiagnosticController.php:89
+msgid "Indisponible"
+msgstr "Not available"
+
+#: Controllers/PluginController.php:322
+#, php-format
+msgid "L'entité #%s est désactivée dans wordpress"
+msgstr "The entity #%s is disabled in wordpress"
+
+#: Includes/Exceptions/EntityNotFoundException.php:13
+msgid "L'entité n'a pas été trouvée"
+msgstr "Entity was not found"
+
+#: Models/Entity.php:294
+msgid "L'identifiant de l'entité wordpress de Sociallymap doit être renseigné"
+msgstr "The id of Sociallymap Wordpress entity must be provided"
+
+#: Models/Entity.php:298
+msgid "Le nom de l'entité wordpress de Sociallymap doit être renseigné"
+msgstr "The name of Sociallymap Wordpress entity must be provided"
+
+#: SociallymapConnectPlugin.php:108
+msgid "Mes entités"
+msgstr "My entities"
+
+#: SociallymapConnectPlugin.php:119 views/home.php:10
+msgid "Ajouter une entité"
+msgstr "Add entity"
+
+#: SociallymapConnectPlugin.php:163
+msgid "Diagnostique"
+msgstr "Diagnostic"
+
+#: SociallymapConnectPlugin.php:212
+#, php-format
+msgid ""
+"Le plugin Sociallymap Connect nécessite au minimum Curl %s. La version "
+"actuellement installée est %s. Veuillez contacter votre hébergeur pour "
+"remédier au problème."
+msgstr ""
+"The Sociallymap Connect plugin requires at least Curl %s. The version "
+"currently installed is %s. Please contact your web host to fix the problem."
+
+#: SociallymapConnectPlugin.php:226
+#, php-format
+msgid ""
+"Le plugin Sociallymap Connect nécessite les functions suivantes: %s. Elles "
+"sont actuellement désactivées par votre configuration. Veuillez contacter "
+"votre hébergeur pour remédier au problème."
+msgstr ""
+"The Sociallymap Connect plugin requires the following functions: %s. They "
+"are currently disabled by your configuration. Please contact your web host "
+"to fix the problem."
+
+#: SociallymapConnectPlugin.php:238
+#, php-format
+msgid ""
+"Le plugin Sociallymap Connect nécessite au minimum PHP %s. Veuillez "
+"contacter votre hébergeur pour remédier au problème."
+msgstr ""
+"The Sociallymap Connect plugin requires at least PHP %s. Please contact your "
+"web host to fix the problem."
+
+#: SociallymapConnectPlugin.php:250
+#, php-format
+msgid ""
+"Le plugin Sociallymap Connect nécessite au minimum Wordpress %s. Veuillez "
+"contacter votre hébergeur pour remédier au problème."
+msgstr ""
+"The Sociallymap Connect plugin requires at least Wordpress %s. Please "
+"contact your web host to fix the problem."
+
+#: SociallymapConnectPlugin.php:271
+#, php-format
+msgid ""
+"La compatibilité avec Yoast SEO est activée. Cependant il semblerait que ce "
+"plugin ne soit pas présent ou actif. %s Liste des entités concernaient : %s"
+msgstr ""
+"Compatibility with Yoast SEO is enabled. However, it seems that this plugin "
+"is not present or active. %s List of entities concerned: %s"
+
+#: views/diagnostic.php:5
+msgid "Attention vos requêtes seront envoyées de manière non sécurisée"
+msgstr "Please note that your requests will be sent in an unsecured way"
+
+#: views/diagnostic.php:6
+msgid "Requêtes sécurisées"
+msgstr "Secure requests"
+
+#: views/diagnostic.php:24 views/home.php:6
+msgid "Bienvenue dans Sociallymap Connect"
+msgstr "Welcom to Sociallymap Connect"
+
+#: views/diagnostic.php:28
+msgid "Etat du support du plugin :"
+msgstr "Status of plugin support:"
+
+#: views/diagnostic.php:33
+msgid "requis"
+msgstr "Required"
+
+#: views/diagnostic.php:34
+msgid "actuel"
+msgstr "Actual"
+
+#: views/diagnostic.php:54
+msgid "Sécurisation des requêtes"
+msgstr "Securing requests"
+
+#: views/diagnostic.php:56
+msgid "Requête sécurisée"
+msgstr "Secure request"
+
+#: views/diagnostic.php:64
+msgid "Configuration"
+msgstr "Configuration"
+
+#: views/diagnostic.php:80
+msgid "Téléchargement des logs"
+msgstr "Log’s downloading"
+
+#: views/logs-manager.php:18
+msgid "Logs"
+msgstr "Logs"
+
+#: views/logs-manager.php:21
+msgid "Téléchargement"
+msgstr "Download"
+
+#: views/logs-manager.php:26
+msgid "Filtrer les logs"
+msgstr "Filter logs"
+
+#: views/logs-manager.php:29
+msgid "Tous"
+msgstr "All"
+
+#: views/logs-manager.php:32
+msgid "Erreur"
+msgstr "Error"
+
+#: views/logs-manager.php:34
+msgid "Infos"
+msgstr "Infos"
+
+#: views/logs-manager.php:37
+msgid "Messages reçus"
+msgstr "Received messages"
+
+#: views/logs-manager.php:43 views/logs-manager.php:74
+#, php-format
+msgid "%d element(s)"
+msgstr "%d element(s)"
+
+#: views/logs-manager.php:51
+msgid "Date"
+msgstr "Date"
+
+#: views/logs-manager.php:54 views/partial/entityList.php:19
+msgid "Catégorie"
+msgstr "Category"
+
+#: views/logs-manager.php:57
+msgid "Message"
+msgstr "Message"
+
+#: views/partial/entityForm.php:6
+msgid "Une erreur est survenue lors de l'enregistrement de l'entité"
+msgstr "An error occured while saving entity"
+
+#: views/partial/entityForm.php:12
+msgid "Entité active"
+msgstr "Entity enabled"
+
+#: views/partial/entityForm.php:20 views/partial/entityList.php:11
+msgid "Nom de l'entité"
+msgstr "Entity name"
+
+#: views/partial/entityForm.php:31
+msgid "Identifiant de l'entité"
+msgstr "Entity Id"
+
+#: views/partial/entityForm.php:42 views/partial/entityList.php:23
+msgid "Auteur"
+msgstr "Author"
+
+#: views/partial/entityForm.php:54
+msgid "Ajout un 'En savoir plus' à la fin de la publication"
+msgstr "Add a 'Read more' link at the end of the publication"
+
+#: views/partial/entityForm.php:62
+msgid "Label du lien 'En savoir plus'"
+msgstr "Label of the “Learn More” link"
+
+#: views/partial/entityForm.php:70
+msgid "Afficher les articles dans une fenêtre modale"
+msgstr "Display articles in a modal form"
+
+#: views/partial/entityForm.php:78
+msgid "Ne pas suivre les liens"
+msgstr "Do not follow the links"
+
+#: views/partial/entityForm.php:85
+msgid "Catégorie cible de la publication"
+msgstr "Publish in categories"
+
+#: views/partial/entityForm.php:105
+msgid "Image"
+msgstr "Image"
+
+#: views/partial/entityForm.php:109
+msgid "Insérer dans le contenu"
+msgstr "Insert in the content"
+
+#: views/partial/entityForm.php:110
+msgid "Insérer en tant qu'image à la une"
+msgstr "Insert as a front page image"
+
+#: views/partial/entityForm.php:111
+msgid "Insérer en tant que contenu et image à la une"
+msgstr "Insert as content and image on the front page"
+
+#: views/partial/entityForm.php:117
+msgid "Afficher le crédit des images"
+msgstr "Display the credit of images"
+
+#: views/partial/entityForm.php:132
+msgid "Inclure les balises de liens canoniques"
+msgstr "Include canonical link"
+
+#: views/partial/entityForm.php:141
+msgid "Compatibilité avec YoastSEO"
+msgstr "Compatibility with YoastSEO"
+
+#: views/partial/entityForm.php:150
+msgid "Type de publication"
+msgstr "Publication type"
+
+#: views/partial/entityForm.php:154
+msgid "Publié"
+msgstr "Published"
+
+#: views/partial/entityForm.php:155
+msgid "Brouillon"
+msgstr "Draft"
+
+#: views/partial/entityForm.php:156
+msgid "En attente de relecture"
+msgstr "Pending"
+
+#: views/partial/entityForm.php:157
+msgid "Privé"
+msgstr "Private"
+
+#: views/partial/entityForm.php:166
+msgid "Enregistrer"
+msgstr "Save"
+
+#: views/partial/entityList.php:15
+msgid "Identifiant de l'entité sociallymap"
+msgstr "Sociallymap’s entity Id"
+
+#: views/partial/entityList.php:27
+msgid "Active"
+msgstr "Enable"
+
+#: views/partial/entityList.php:31
+msgid "Dernière publication"
+msgstr "Last publicaton"
+
+#: views/partial/entityList.php:35
+msgid "Erreurs"
+msgstr "Errors"
+
+#: views/partial/entityList.php:52
+msgid "Editer"
+msgstr "Edit"
+
+#: views/partial/entityList.php:55
+msgid "Voulez vous vraiment supprimer cette entité ?"
+msgstr "Would you really delete this entity ?"
+
+#: views/partial/entityList.php:55
+msgid "Effacer"
+msgstr "Remove"
+
+#: views/partial/entityList.php:84
+msgid "Aucune"
+msgstr "None"
+
+#: views/partial/imageCredit.php:5
+msgid "Crédit des images :"
+msgstr "Credit of images :"
+
+#: views/partial/pagination.php:9
+msgid "Première page"
+msgstr "First page"
+
+#: views/partial/pagination.php:20
+msgid "Page précédente"
+msgstr "Previous page"
+
+#: views/partial/pagination.php:30
+msgid "Page actuelle"
+msgstr "Current page"
+
+#: views/partial/pagination.php:41
+msgid "sur"
+msgstr "on"
+
+#: views/partial/pagination.php:48
+msgid "Page suivante"
+msgstr "Next page"
+
+#: views/partial/pagination.php:59
+msgid "Dernière page"
+msgstr "Last page"
+
+#: views/partial/readmore.php:5
+msgid "En savoir plus"
+msgstr "Learn More"
+
+#~ msgid "Le message #%s sur l'entité #%s est déjà publié."
+#~ msgstr "The message #%s on entity #%s is already published."
+
+#~ msgid "L'entité #%s n'est pas enregistrée dans wordpress"
+#~ msgstr "The entity #%s is not registered wordpress"
+
+#~ msgid ""
+#~ "Ne pas indexer les articles publiés via Sociallymap dans les moteurs de "
+#~ "recherche"
+#~ msgstr "Do not index in search engine"
+
+#~ msgid "Version du plugin"
+#~ msgstr "Plugin’s version"
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Activer"
+#~ msgstr "Enable"
+
+#~ msgid "Désactiver"
+#~ msgstr "Disable"
+
+#~ msgid "Version actuelle"
+#~ msgstr "Current version"
+
+#~ msgid "Version de Wordpress"
+#~ msgstr "Wordpress version"
+
+#~ msgid "Acceder aux logs"
+#~ msgstr "Access to logs"
